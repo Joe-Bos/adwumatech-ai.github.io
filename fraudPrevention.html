@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdwumaTech AI | Fraud Prevention Program</title>
+  <meta name="theme-color" content="#f8b500">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="site">
+  <header class="site-header navbar navbar-expand-lg sticky-top">
+    <div class="container py-2">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#top" aria-label="AdwumaTech AI Home">
+        <img src="assets/adwumatech-logo.svg" alt="AdwumaTech AI logo" height="34">
+        <span class="brand-sub d-none d-sm-inline">Fraud Prevention Data Program</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#why">Why We Collect</a></li>
+          <li class="nav-item"><a class="nav-link" href="#how">How It Works</a></li>
+          <li class="nav-item"><a class="nav-link" href="#rights">Your Rights</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="top" class="hero-section reveal-up">
+      <div class="container hero-container">
+        <div class="hero-grid">
+          <div class="hero-copy text-center text-lg-start">
+            <p class="hero-kicker mb-3">
+              <span class="hero-badge">Project Overview</span>
+            </p>
+            <h1 class="hero-title mb-3">Safer Financial Systems Through <span class="accent-text">Responsible <span class="bg-gradient-to-r from-amber-400 to-orange-500 bg-clip-text text-transparent">Data Collection</span></span></h1>
+            <h2 class="hero-subtitle mb-3">Better identity checks. Stronger fraud prevention.</h2>
+            <p class="hero-lead mb-4">
+              We collect limited, consent-based data to improve KYC and fraud models for financial services.
+              This helps teams:
+            </p>
+            <ul class="hero-list mb-4">
+              <li>Verify real customers faster</li>
+              <li>Stop identity theft and account takeover</li>
+              <li>Lower fraud losses and false alarms</li>
+              <li>Meet regulatory requirements</li>
+            </ul>
+            <div class="hero-actions d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start">
+              <a class="btn btn-ghost" href="#why">Why We Collect Data</a>
+              <a class="btn btn-start" href="#how">View Processing Steps</a>
+            </div>
+          </div>
+
+          <div class="hero-orb-wrap hero-inline-orb" aria-hidden="true">
+            <div class="hero-orb">
+              <svg class="adw-orbit" viewBox="0 0 500 500" role="presentation" focusable="false">
+                <defs>
+                  <linearGradient id="adwOrbPortalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#f59e0b"></stop>
+                    <stop offset="50%" stop-color="#fbbf24" stop-opacity="0.8"></stop>
+                    <stop offset="100%" stop-color="#fb923c"></stop>
+                  </linearGradient>
+                  <linearGradient id="adwOrbSparkGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#fbbf24" stop-opacity="0"></stop>
+                    <stop offset="50%" stop-color="#f59e0b"></stop>
+                    <stop offset="100%" stop-color="#fbbf24" stop-opacity="0"></stop>
+                  </linearGradient>
+                  <radialGradient id="adwOrbCenterPortal" cx="50%" cy="50%">
+                    <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.4"></stop>
+                    <stop offset="40%" stop-color="#ea580c" stop-opacity="0.3"></stop>
+                    <stop offset="70%" stop-color="#000000" stop-opacity="0.6"></stop>
+                    <stop offset="100%" stop-color="#000000" stop-opacity="1"></stop>
+                  </radialGradient>
+                  <filter id="adwOrbGlow">
+                    <feGaussianBlur stdDeviation="4" result="coloredBlur"></feGaussianBlur>
+                    <feMerge>
+                      <feMergeNode in="coloredBlur"></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                  <filter id="adwOrbStrongGlow">
+                    <feGaussianBlur stdDeviation="6" result="coloredBlur"></feGaussianBlur>
+                    <feMerge>
+                      <feMergeNode in="coloredBlur"></feMergeNode>
+                      <feMergeNode in="coloredBlur"></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                  <path id="adwOrbitOuterP1" d="M 415 250 A 165 165 0 1 1 85 250 A 165 165 0 1 1 415 250"></path>
+                  <path id="adwOrbitOuterP2" d="M 366.67 366.67 A 165 165 0 1 1 133.33 133.33 A 165 165 0 1 1 366.67 366.67"></path>
+                  <path id="adwOrbitOuterP3" d="M 250 415 A 165 165 0 1 1 250 85 A 165 165 0 1 1 250 415"></path>
+                  <path id="adwOrbitOuterP4" d="M 133.33 366.67 A 165 165 0 1 1 366.67 133.33 A 165 165 0 1 1 133.33 366.67"></path>
+                  <path id="adwOrbitOuterP5" d="M 85 250 A 165 165 0 1 1 415 250 A 165 165 0 1 1 85 250"></path>
+                  <path id="adwOrbitOuterP6" d="M 133.33 133.33 A 165 165 0 1 1 366.67 366.67 A 165 165 0 1 1 133.33 133.33"></path>
+                  <path id="adwOrbitOuterP7" d="M 250 85 A 165 165 0 1 1 250 415 A 165 165 0 1 1 250 85"></path>
+                  <path id="adwOrbitOuterP8" d="M 366.67 133.33 A 165 165 0 1 1 133.33 366.67 A 165 165 0 1 1 366.67 133.33"></path>
+                  <path id="adwOrbitInnerP1" d="M 315 250 A 65 65 0 1 1 185 250 A 65 65 0 1 1 315 250"></path>
+                  <path id="adwOrbitInnerP2" d="M 282.5 306.29 A 65 65 0 1 1 217.5 193.71 A 65 65 0 1 1 282.5 306.29"></path>
+                  <path id="adwOrbitInnerP3" d="M 217.5 306.29 A 65 65 0 1 1 282.5 193.71 A 65 65 0 1 1 217.5 306.29"></path>
+                  <path id="adwOrbitInnerP4" d="M 185 250 A 65 65 0 1 1 315 250 A 65 65 0 1 1 185 250"></path>
+                  <path id="adwOrbitInnerP5" d="M 217.5 193.71 A 65 65 0 1 1 282.5 306.29 A 65 65 0 1 1 217.5 193.71"></path>
+                  <path id="adwOrbitInnerP6" d="M 282.5 193.71 A 65 65 0 1 1 217.5 306.29 A 65 65 0 1 1 282.5 193.71"></path>
+                </defs>
+
+                <circle class="adw-ring-outer" cx="250" cy="250" r="190"></circle>
+
+                <g class="adw-ticks">
+                  <line x1="407" y1="250" x2="423" y2="250"></line>
+                  <line x1="361.02" y1="361.02" x2="372.33" y2="372.33"></line>
+                  <line x1="250" y1="407" x2="250" y2="423"></line>
+                  <line x1="138.98" y1="361.02" x2="127.67" y2="372.33"></line>
+                  <line x1="93" y1="250" x2="77" y2="250"></line>
+                  <line x1="138.98" y1="138.98" x2="127.67" y2="127.67"></line>
+                  <line x1="250" y1="93" x2="250" y2="77"></line>
+                  <line x1="361.02" y1="138.98" x2="372.33" y2="127.67"></line>
+                </g>
+
+                <circle class="adw-ring-mid" cx="250" cy="250" r="140"></circle>
+                <circle class="adw-clean-line" cx="250" cy="250" r="190"></circle>
+                <circle class="adw-clean-line adw-clean-line-mid" cx="250" cy="250" r="140"></circle>
+
+                <circle class="adw-particle adw-particle-outer p1" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="0s"><mpath href="#adwOrbitOuterP1"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p2" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="0.2s"><mpath href="#adwOrbitOuterP2"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p3" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="0.4s"><mpath href="#adwOrbitOuterP3"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p4" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="0.6s"><mpath href="#adwOrbitOuterP4"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p5" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="0.8s"><mpath href="#adwOrbitOuterP5"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p6" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="1s"><mpath href="#adwOrbitOuterP6"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p7" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="1.2s"><mpath href="#adwOrbitOuterP7"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-outer p8" r="2.4">
+                  <animateMotion dur="20s" repeatCount="indefinite" begin="1.4s"><mpath href="#adwOrbitOuterP8"></mpath></animateMotion>
+                </circle>
+
+                <circle class="adw-core-fill" cx="250" cy="250" r="100"></circle>
+                <circle class="adw-core-ring" cx="250" cy="250" r="105"></circle>
+
+                <circle class="adw-particle adw-particle-inner i1" r="2">
+                  <animateMotion dur="12s" repeatCount="indefinite" begin="0s"><mpath href="#adwOrbitInnerP1"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-inner i2" r="2">
+                  <animateMotion dur="12s" repeatCount="indefinite" begin="0.25s"><mpath href="#adwOrbitInnerP2"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-inner i3" r="2">
+                  <animateMotion dur="12s" repeatCount="indefinite" begin="0.5s"><mpath href="#adwOrbitInnerP3"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-inner i4" r="2">
+                  <animateMotion dur="12s" repeatCount="indefinite" begin="0.75s"><mpath href="#adwOrbitInnerP4"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-inner i5" r="2">
+                  <animateMotion dur="12s" repeatCount="indefinite" begin="1s"><mpath href="#adwOrbitInnerP5"></mpath></animateMotion>
+                </circle>
+                <circle class="adw-particle adw-particle-inner i6" r="2">
+                  <animateMotion dur="12s" repeatCount="indefinite" begin="1.25s"><mpath href="#adwOrbitInnerP6"></mpath></animateMotion>
+                </circle>
+
+                <line class="adw-spark s1" x1="445" y1="250" x2="480" y2="250"></line>
+                <line class="adw-spark s2" x1="347.5" y1="418.87" x2="365" y2="449.19"></line>
+                <line class="adw-spark s3" x1="152.5" y1="418.87" x2="135" y2="449.19"></line>
+                <line class="adw-spark s4" x1="55" y1="250" x2="20" y2="250"></line>
+                <line class="adw-spark s5" x1="152.5" y1="81.13" x2="135" y2="50.81"></line>
+                <line class="adw-spark s6" x1="347.5" y1="81.13" x2="365" y2="50.81"></line>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-secondary mt-4 mt-lg-5">
+          <article class="card panel-card summary-card h-100">
+            <div class="card-body p-4">
+              <h3 class="h5 mb-3">Program Summary</h3>
+              <div class="metric-row">
+                <span class="metric-value">1</span>
+                <p class="mb-0">Core identity fields (name, birth date, address) improve KYC matching.</p>
+              </div>
+              <div class="metric-row">
+                <span class="metric-value">2</span>
+                <p class="mb-0">Government ID checks strengthen validation and anti-spoof controls.</p>
+              </div>
+              <div class="metric-row">
+                <span class="metric-value">3</span>
+                <p class="mb-0">Device and behavior signals improve fraud detection and risk scoring.</p>
+              </div>
+            </div>
+          </article>
+
+          <div class="hero-image-shell h-100">
+            <img src="Adwumatech AI image 1.jpg" class="img-fluid hero-image" alt="AdwumaTech AI fraud prevention data collection team" loading="lazy" decoding="async">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="content-section reveal-up">
+      <div class="container section-container">
+        <div class="section-head mb-4">
+          <p class="section-kicker mb-2">Why We Collect</p>
+          <h2 class="h1 mb-3">Why ID and Face Checks Matter</h2>
+          <p class="section-desc mb-0">
+            Fraud now includes deepfakes and synthetic IDs. Real-world signals help models separate real users from attacks.
+          </p>
+        </div>
+
+        <article class="card panel-card mb-4">
+          <div class="card-body">
+            <h3 class="h4 mb-2">What We Collect</h3>
+            <p class="text-muted mb-3">Only data needed for identity checks and fraud prevention.</p>
+            <ul class="mb-3">
+              <li>Basic identity info (name, birth date, address)</li>
+              <li>Government ID details</li>
+              <li>Contact information</li>
+              <li>Device and behavior signals</li>
+              <li>Transaction patterns and risk flags (when needed)</li>
+            </ul>
+            <p class="mb-0 text-muted">We do not collect unrelated personal data.</p>
+          </div>
+        </article>
+
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-xl-4"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Detect Identity Theft</h3><p class="mb-0 text-muted">Catch mismatches between ID records and the person presenting them.</p></div></article></div>
+          <div class="col-12 col-md-6 col-xl-4"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Block Synthetic Profiles</h3><p class="mb-0 text-muted">Spot mixed real and fake data used to open fraudulent accounts.</p></div></article></div>
+          <div class="col-12 col-md-6 col-xl-4"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Lower False Positives</h3><p class="mb-0 text-muted">Reduce wrong blocks on legitimate customers.</p></div></article></div>
+          <div class="col-12 col-md-6 col-xl-4"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Secure Recovery</h3><p class="mb-0 text-muted">Protect reset and device-change flows from social engineering.</p></div></article></div>
+          <div class="col-12 col-md-6 col-xl-4"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Prioritize High Risk</h3><p class="mb-0 text-muted">Surface risky transfers and withdrawals for fast review.</p></div></article></div>
+          <div class="col-12 col-md-6 col-xl-4"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Support Audits</h3><p class="mb-0 text-muted">Keep clear records for audits and incident reviews.</p></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="content-section reveal-up">
+      <div class="container section-container">
+        <div class="section-shell p-4 p-lg-5">
+          <div class="section-head mb-4">
+            <p class="section-kicker mb-2">Processing Lifecycle</p>
+            <h2 class="h1 mb-3">How Your Data Is Used</h2>
+            <p class="section-desc mb-0">Data moves through controlled, auditable steps.</p>
+          </div>
+
+          <article class="card panel-card mb-4">
+            <div class="card-body">
+              <p class="mb-2">Your data may be used to:</p>
+              <ul class="mb-3">
+                <li>Train and validate KYC models</li>
+                <li>Build fraud detection models</li>
+                <li>Improve identity risk scoring</li>
+                <li>Support compliance monitoring</li>
+              </ul>
+              <p class="mb-2">Data may be:</p>
+              <ul class="mb-3">
+                <li>Aggregated</li>
+                <li>De-identified or pseudonymized</li>
+                <li>Used for statistics and model training</li>
+              </ul>
+              <p class="mb-0 sell-data-emphasis">We do not sell personal data.</p>
+            </div>
+          </article>
+
+          <ol class="list-group list-group-numbered timeline-list">
+            <li class="list-group-item timeline-item"><div class="ms-2 me-auto"><div class="fw-semibold">Consent and Purpose</div>We explain what we collect, why we collect it, and how it is used.</div></li>
+            <li class="list-group-item timeline-item"><div class="ms-2 me-auto"><div class="fw-semibold">Secure Intake</div>Data is encrypted in transit and at rest. Access is restricted to authorized staff.</div></li>
+            <li class="list-group-item timeline-item"><div class="ms-2 me-auto"><div class="fw-semibold">Minimize and Validate</div>Only required fields are kept, with quality checks before analysis or training.</div></li>
+            <li class="list-group-item timeline-item"><div class="ms-2 me-auto"><div class="fw-semibold">Train and Monitor</div>We test for quality, fairness, and measurable fraud-detection gains.</div></li>
+            <li class="list-group-item timeline-item"><div class="ms-2 me-auto"><div class="fw-semibold">Retain and Dispose</div>Data is kept only as long as needed, then deleted or anonymized.</div></li>
+          </ol>
+
+          <div class="section-head mt-5 mb-4">
+            <p class="section-kicker mb-2">Security Controls</p>
+            <h3 class="h2 mb-3">How We Protect Data</h3>
+            <p class="section-desc mb-0">We use technical and governance safeguards across systems and teams.</p>
+          </div>
+
+          <div class="hero-image-shell mb-4">
+            <img src="Adwumatech AI image 2.jpg" class="img-fluid hero-image" alt="AdwumaTech AI team working on secure data handling" loading="lazy" decoding="async">
+          </div>
+
+          <div class="row g-3">
+            <div class="col-12 col-lg-6"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Technical Safeguards</h3><ul class="mb-0"><li>Encryption in transit and at rest</li><li>Role-based access controls with MFA</li><li>Continuous logging and alerting</li><li>Segregated environments and patching</li></ul></div></article></div>
+            <div class="col-12 col-lg-6"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Governance Safeguards</h3><ul class="mb-0"><li>Purpose limitation and data minimization</li><li>Vendor controls and privacy training</li><li>Documented incident response process</li><li>Retention reviews and secure deletion</li></ul></div></article></div>
+            <div class="col-12 col-lg-6"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">What We Do Not Do</h3><ul class="mb-0"><li>Sell ID or selfie data</li><li>Use data for unrelated marketing profiling</li><li>Allow broad internal access to raw personal records</li></ul></div></article></div>
+            <div class="col-12 col-lg-6"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Breach Response</h3><p class="mb-0 text-muted">If unauthorized access is suspected, we isolate systems, investigate, and notify affected parties and regulators as required by law.</p></div></article></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="rights" class="content-section reveal-up">
+      <div class="container section-container">
+        <div class="section-head mb-4">
+          <p class="section-kicker mb-2">Data Subject Rights</p>
+          <h2 class="h1 mb-3">Your Rights</h2>
+          <p class="section-desc mb-0">You have a right to transparency and control over your personal data.</p>
+        </div>
+
+        <div class="row g-3 mb-4">
+          <div class="col-12 col-lg-6"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">You Can</h3><ul class="mb-0"><li>Request access to your personal data</li><li>Request correction of inaccurate data</li><li>Request deletion where legally allowed</li><li>Withdraw consent, subject to legal limits</li><li>File a complaint with a relevant authority</li></ul></div></article></div>
+          <div class="col-12 col-lg-6"><article class="card panel-card h-100"><div class="card-body"><h3 class="h5 mb-2">Contact for Rights Requests</h3><ul class="mb-0"><li class="contact-email-item"><span class="contact-icon" aria-hidden="true"><img src="assets/icon-email.svg" alt="" loading="lazy" decoding="async"></span>Email: <a class="contact-email-link" href="mailto:info@adwumatech.ai">info@adwumatech.ai</a></li><li class="contact-email-item"><span class="contact-icon" aria-hidden="true"><img src="assets/icon-phone.svg" alt="" loading="lazy" decoding="async"></span>Phone: <a class="contact-email-link" href="tel:+233302123456">+233 302 123 456</a></li><li class="contact-address-item"><span class="contact-icon" aria-hidden="true"><img src="assets/icon-location.svg" alt="" loading="lazy" decoding="async"></span>Address: The Octagon, Barnes Rd, Accra</li></ul></div></article></div>
+        </div>
+
+        <article class="card panel-card mb-4"><div class="card-body"><h3 class="h4 mb-2">Participation and Consent</h3><p class="text-muted mb-3">Participation is voluntary. Before submitting data, you review and accept a clear consent form.</p><p class="mb-2">You may:</p><ul class="mb-0"><li>Decline to participate</li><li>Skip non-mandatory fields (where available)</li><li>Withdraw later, subject to legal and contract limits</li></ul></div></article>
+
+        <article class="card panel-card mb-4"><div class="card-body"><h3 class="h4 mb-2">Eligibility</h3><ul class="mb-0"><li>Be 18+ (or legal age in your jurisdiction)</li><li>Provide accurate information</li><li>Meet any criteria listed in the consent form</li></ul></div></article>
+
+        <h2 id="faq" class="h4 mt-4 mb-3">Frequently Asked Questions</h2>
+        <details class="app-faq-item"><summary>Is my information shared with third parties?</summary><p class="mb-0 text-muted">We may use vetted processors for secure storage and analytics. We do not sell personal data.</p></details>
+        <details class="app-faq-item"><summary>Is participation mandatory?</summary><p class="mb-0 text-muted">No. Participation is voluntary.</p></details>
+        <details class="app-faq-item"><summary>How secure is my data?</summary><p class="mb-0 text-muted">We use encryption, strict access controls, and ongoing security testing.</p></details>
+        <details class="app-faq-item"><summary>Can I withdraw my data?</summary><p class="mb-0 text-muted">Yes, subject to legal and regulatory obligations.</p></details>
+      </div>
+    </section>
+
+    <section id="contact" class="content-section reveal-up">
+      <div class="container section-container">
+        <div class="card cta-card">
+          <div class="card-body p-4 p-lg-5">
+            <h2 class="h2 mb-3">Contact &amp; Verification</h2>
+            <p class="text-muted mb-4">For project questions, contact:</p>
+            <ul class="mb-0">
+              <li>Project Lead: AdwumaTech AI Program Office</li>
+              <li>Data Protection Officer: AdwumaTech AI Privacy Team</li>
+              <li class="contact-email-item"><span class="contact-icon" aria-hidden="true"><img src="assets/icon-email.svg" alt="" loading="lazy" decoding="async"></span>Email: <a class="contact-email-link" href="mailto:info@adwumatech.ai">info@adwumatech.ai</a></li>
+              <li class="contact-email-item"><span class="contact-icon" aria-hidden="true"><img src="assets/icon-phone.svg" alt="" loading="lazy" decoding="async"></span>Phone: <a class="contact-email-link" href="tel:+233302123456">+233 302 123 456</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="app-footer py-4">
+    <div class="container">
+      <div class="d-flex align-items-center gap-2 mb-2">
+        <img src="assets/adwumatech-logo.svg" alt="AdwumaTech AI logo" height="24">
+        <strong>Fraud Prevention Program</strong>
+      </div>
+      <p class="mb-0 text-muted small">&copy; 2026 AdwumaTech AI. All rights reserved. Proudly based in Ghana.</p>
+      <div id="socials" class="footer-socials mt-3" aria-label="Social media links">
+        <a class="footer-social-link" href="https://www.linkedin.com/company/adwumatech-ai/posts/?feedView=all" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img class="footer-social-icon" src="assets/social-linkedin.svg" alt="LinkedIn"></a>
+        <a class="footer-social-link" href="https://x.com/adwumatechai?s=21" target="_blank" rel="noopener noreferrer" aria-label="X"><img class="footer-social-icon" src="assets/social-x.svg" alt="X"></a>
+        <a class="footer-social-link" href="https://www.youtube.com/@AdwumaTechAI" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><img class="footer-social-icon" src="assets/social-youtube.svg" alt="YouTube"></a>
+        <a class="footer-social-link" href="https://huggingface.co/adwumatech-ai" target="_blank" rel="noopener noreferrer" aria-label="Hugging Face"><img class="footer-social-icon" src="assets/social-huggingface.svg" alt="Hugging Face"></a>
+        <a class="footer-social-link" href="https://github.com/adwumatech-ai" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img class="footer-social-icon" src="assets/social-github.svg" alt="GitHub"></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="scroll-reveal.js"></script>
+</body>
+</html>
